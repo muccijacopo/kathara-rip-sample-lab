@@ -1,0 +1,6 @@
+/sbin/ifconfig eth0 30.0.4.7/24 up
+
+route add default gw 30.0.4.6
+
+# PER I NAME SERVER (DNS)
+/etc/init.d/bind start

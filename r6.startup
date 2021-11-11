@@ -1,0 +1,4 @@
+/sbin/ifconfig eth0 30.0.4.6/24 up 
+/sbin/ifconfig eth1 30.0.3.6/24 up
+
+/etc/init.d/frr start

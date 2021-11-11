@@ -1,0 +1,4 @@
+/sbin/ifconfig eth0 10.0.0.2/24 up
+
+# AGGIUNGI ROTTA DI DEFAULT 
+route add default gw 10.0.0.1

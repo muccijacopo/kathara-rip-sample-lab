@@ -1,0 +1,9 @@
+/sbin/ifconfig eth0 20.0.0.1/24 up
+/sbin/ifconfig eth1 10.0.1.1/24 up
+/sbin/ifconfig eth2 10.0.0.1/24 up
+
+/etc/init.d/frr start
+
+# AGGIUNGI RETE ALLA TABELLA DI ROUTING (gw è il router a cui mandare il pacchetto)
+route add -net 30.0.0.0/8 gw 20.0.0.2
+
