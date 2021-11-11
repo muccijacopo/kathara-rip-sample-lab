@@ -11,6 +11,6 @@ $TTL   60000
 ROOT-SERVER.	IN	A	10.0.4.6
 
 it.		IN 	NS	dnsit.it.
-dnsit.it.	IN 	A	30.0.4.7
+dnsit.it.  IN 	SOA  30.0.4.7
 
 

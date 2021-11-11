@@ -4,6 +4,6 @@
 
 /etc/init.d/frr start
 
-# AGGIUNGI RETE ALLA TABELLA DI ROUTING (gw è il router a cui mandare il pacchetto)
+# AGGIUNGI ROUTE STATICA ALLA TABELLA DI ROUTING
 route add -net 30.0.0.0/8 gw 20.0.0.2
 
